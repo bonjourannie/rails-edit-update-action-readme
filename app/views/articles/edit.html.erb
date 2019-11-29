@@ -1,0 +1,9 @@
+<%= form_tag articles_path do %>
+<label>Article title</label><br>
+<%= text_field_tag :title %><br>
+
+<label>Article Desription</label><br>
+<%= text_area_tag :description %><br>
+
+<%= submit_tag "Submit Article" %>
+<% end %>
